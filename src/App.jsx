@@ -1,6 +1,5 @@
-// src/App.js
 import React, { useState } from 'react';
-import useFindName from './Hooks/use-find-name';
+import useFindName from "./Hooks/use-find-name";
 import './App.css'; 
 
 function App() {
