@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
-function useFindName(namesArray, targetName) {
+
+export function useFindName(namesArray, targetName) {
   const [foundName, setFoundName] = useState(null);
 
   useEffect(() => {
@@ -15,4 +16,4 @@ function useFindName(namesArray, targetName) {
   return foundName;
 }
 
-export default useFindName;
+
