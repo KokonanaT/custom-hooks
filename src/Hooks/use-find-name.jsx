@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 
-export function useFindName(namesArray, targetName) {
+export const useFindName = (namesArray, targetName) => {
   const [foundName, setFoundName] = useState(null);
 
   useEffect(() => {

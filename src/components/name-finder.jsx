@@ -1,8 +1,7 @@
 // src/components/NameFinder.jsx
 import React, { useState } from 'react';
+import { useFindName } from "../hooks/use-find-name"
 
-
-import { useFindName } from '../hooks/use-find-name';
 function NameFinder() {
   const names = ["Peace", 'Hillary', 'Pammy', 'Dinana'];
   const [targetName, setTargetName] = useState('Peace');
